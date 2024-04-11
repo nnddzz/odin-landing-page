@@ -112,7 +112,6 @@ a:visited:not(.link-logo) {
 
 .card {
   width: 25%;
-  height: 65vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
