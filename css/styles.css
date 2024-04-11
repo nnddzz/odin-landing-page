@@ -23,8 +23,7 @@ body {
   padding: 3vh 0;
 }
 
-.hero-section,
-.feature-section {
+.hero-section {
   height: 95vh;
   display: flex;
   align-items: center;
@@ -33,6 +32,15 @@ body {
 
 .feature-section {
   flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.feature-section h2 {
+  margin-top: 5%;
+  color: darkolivegreen;
 }
 
 .nav-container,
@@ -92,7 +100,7 @@ a:visited:not(.link-logo) {
 
 .feature-container {
   flex: 1;
-  max-width: 90vw;
+  max-width: 90 vw;
   display: flex;
   justify-content: space-around;
   align-items: center;
