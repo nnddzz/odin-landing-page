@@ -25,10 +25,14 @@ body {
 
 .hero-section,
 .feature-section {
-  height: 90vh;
+  height: 95vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.feature-section {
+  flex-direction: column;
 }
 
 .nav-container,
@@ -77,7 +81,8 @@ a:visited:not(.link-logo) {
   padding: 18px 0 18px 18px 18px;
 }
 
-.hero-text h1 {
+.hero-text h1,
+.feature-section h2 {
   font-size: 36px;
 }
 
@@ -86,6 +91,8 @@ a:visited:not(.link-logo) {
 }
 
 .feature-container {
+  flex: 1;
+  max-width: 90vw;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -100,7 +107,7 @@ a:visited:not(.link-logo) {
   align-items: center;
   transition: 0.3s;
   box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2);
-  border-radius: 5%;
+  border-radius: 2%;
 }
 
 .card:hover {
@@ -110,11 +117,14 @@ a:visited:not(.link-logo) {
 
 .card img {
   width: 100%;
+  border-top-left-radius: 2%;
+  border-top-right-radius: 2%;
 }
 
 .card-content {
-  padding: 8px 20px;
+  padding: 12px 24px;
   text-align: center;
+  color: darkolivegreen;
 }
 
 .card-content h3 {
