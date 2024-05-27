@@ -112,6 +112,7 @@ a:visited:not(.link-logo) {
 
 .card {
   width: 25%;
+  height: 65vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -137,6 +138,7 @@ a:visited:not(.link-logo) {
   padding: 12px 24px;
   text-align: center;
   color: darkolivegreen;
+  overflow: auto;
 }
 
 .card-content h3 {
