@@ -20,13 +20,15 @@ body {
 }
 
 .nav-section,
-.hero-section {
+.hero-section,
+.testi-section {
   background-color: darkolivegreen;
   color: #fff;
   padding: 3vh 0;
 }
 
-.hero-section {
+.hero-section,
+.testi-section {
   height: 95vh;
   display: flex;
   align-items: center;
