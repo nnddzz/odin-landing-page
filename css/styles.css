@@ -35,6 +35,14 @@ body {
   justify-content: space-between;
 }
 
+.testi-section {
+  flex-direction: column;
+}
+
+.testi-section h2 {
+  margin: 3rem 0;
+}
+
 .feature-section {
   flex-direction: column;
   display: flex;
