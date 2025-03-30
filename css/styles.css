@@ -27,9 +27,14 @@ body {
   padding: 3vh 0;
 }
 
+.nav-section {
+  position: fixed;
+  width: 100%;
+}
+
 .hero-section,
 .testi-section {
-  height: 95vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
