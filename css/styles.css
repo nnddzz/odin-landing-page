@@ -116,6 +116,22 @@ textarea {
   transition: all ease-in 0.3s;
 }
 
+.footer {
+  background-color: darkolivegreen;
+  color: #fff;
+  width: 100%;
+  height: 10vh;
+}
+
+.footer-content {
+  margin: 0 auto;
+  padding: 1rem;
+  max-width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .feature-section h2 {
   margin-top: 5%;
   color: darkolivegreen;
